@@ -13,6 +13,6 @@ defmodule ElixirAndLager do
 
   """
   def hello do
-    :world
+    :lager.info("msg")
   end
 end
